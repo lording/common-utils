@@ -5,5 +5,6 @@ int main()
 {
 	Utils util;
 	util.PrintBoostVersion();
+	util.PrintLog4cxxVersion();
 	return 0;
 }
