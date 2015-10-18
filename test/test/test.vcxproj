@@ -19,9 +19,9 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{0BC5A7C0-62E1-43FC-86B7-AD1FBA51573E}</ProjectGuid>
+    <ProjectGuid>{A63EAFD6-4D00-4375-B83D-1603B4A051D6}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Utils</RootNamespace>
+    <RootNamespace>test</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -89,12 +89,15 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>E:\360云盘\work directory\vs projects\log4cxx_T\include;E:\360云盘\work directory\vs projects\boost\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\cppunit-1.12.1\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>E:\360云盘\work directory\vs projects\log4cxx_T\lib;E:\360云盘\work directory\vs projects\boost\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>D:\cppunit-1.12.1\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <NoEntryPoint>false</NoEntryPoint>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -148,11 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Utils.h" />
+    <ClCompile Include="DemoTest.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Utils.cpp" />
+    <ClInclude Include="Demo.h" />
+    <ClInclude Include="DemoTest.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
