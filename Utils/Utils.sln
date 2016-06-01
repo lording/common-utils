@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Utils", "Utils\Utils.vcxpro
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test", "Test\Test.vcxproj", "{100F3AA8-182E-4A8A-9D25-588792F6727E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "readfile", "readfile\readfile.vcxproj", "{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{100F3AA8-182E-4A8A-9D25-588792F6727E}.Release|x64.Build.0 = Release|x64
 		{100F3AA8-182E-4A8A-9D25-588792F6727E}.Release|x86.ActiveCfg = Release|Win32
 		{100F3AA8-182E-4A8A-9D25-588792F6727E}.Release|x86.Build.0 = Release|Win32
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Debug|x64.ActiveCfg = Debug|x64
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Debug|x64.Build.0 = Debug|x64
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Debug|x86.ActiveCfg = Debug|Win32
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Debug|x86.Build.0 = Debug|Win32
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Release|x64.ActiveCfg = Release|x64
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Release|x64.Build.0 = Release|x64
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Release|x86.ActiveCfg = Release|Win32
+		{E77C1F29-133C-4EA2-85F2-7FCD10E1F8F2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
